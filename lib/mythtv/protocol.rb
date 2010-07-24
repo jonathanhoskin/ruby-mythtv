@@ -6,12 +6,13 @@ module MythTV
     { :protocol_version => 31, :recording_elements => 35 },
     { :protocol_version => 40, :recording_elements => 46 },
     { :protocol_version => 50, :recording_elements => 47 },
-    { :protocol_version => 56, :recording_elements => 47 }
+    { :protocol_version => 56, :recording_elements => 47 },
+    { :protocol_version => 23056, :recording_elements => 47 }
   ]
   
   # Set the default protocol version to announce. Should
   # track the latest release
-  DEFAULT_PROTOCOL_VERSION = 56
+  DEFAULT_PROTOCOL_VERSION = 23056
   
   # For DB schema changes, we have a base set of columns for all the classes which correspond
   # to database tables, and then modify them for each new DBSchemaVer, which is stored in the
